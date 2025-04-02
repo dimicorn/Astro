@@ -1,0 +1,43 @@
+\documentclass[a4paper, 12pt]{article}
+\usepackage{placeins}
+\usepackage[left=2cm,right=2cm,top=2cm,bottom=3cm,bindingoffset=0cm]{geometry}
+\usepackage{indentfirst}
+\usepackage[T2A]{fontenc}
+\usepackage[utf8]{inputenc}
+\usepackage[english,russian]{babel}
+\usepackage[nottoc]{tocbibind}
+
+\usepackage{wrapfig}
+\usepackage{graphicx}
+\graphicspath{{pictures/}}
+\DeclareGraphicsExtensions{.pdf,.png,.jpg}
+
+\usepackage{multirow}
+\usepackage{pgfplots}
+\pgfplotsset{compat=1.9}
+
+\usepackage{amsfonts, amssymb, amsthm, mathtools, esvect}
+\usepackage{enumitem}
+\usepackage{amsmath}
+\usepackage{physics}
+\usepackage[unicode, pdftex]{hyperref}
+\hypersetup{colorlinks, citecolor=blue, filecolor=blue, linkcolor=blue, urlcolor=blue}
+
+\usepackage[version=4]{mhchem}
+\usepackage{comment}
+\title{\textbf{Решения задач по олимпиадной астрономии}}
+\begin{document}
+\author{Загоруля Д.С.}
+\maketitle
+\tableofcontents
+\newpage
+\section{Сферическая астрономия}
+\subsection{Базовые задачи}
+\input{1_spher_astro_base}
+\subsection{Олимпиадные задачи}
+\input{1_spher_astro_olymp}
+
+\section{Звёздное небо}
+\input{2_sky}
+
+\end{document}
